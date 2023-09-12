@@ -1,9 +1,8 @@
-# Setup
-
-This section documents your practical work in week 2.
+# Software Engineering Week2 submission
 
 The main requirements are to show that:
 
+My tasks are:
 1. Your development environment is correctly set up
 2. You understand the setup including potential alternative configuration settings
 
@@ -54,3 +53,6 @@ appropriately.
 * Repeat the descriptive commentary from point 1
 * Give a blow-by-blow account of everything you did. Instead, you should highlight 
   the important points.
+
+  I have set up my development envirnment corectly. Screen shot Evidence of Visual Studio code up and running
+  is avalable here
