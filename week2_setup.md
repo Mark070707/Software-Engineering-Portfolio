@@ -68,8 +68,10 @@ appropriately.
   Visual Studio. The reason for my setup choice was that it was the only configeration that actually worked with my
   MacBook.
 
-  The limitations of using Desktop GitHub is that you cannot look at the 
-
+  The limitations of using Desktop GitHub is that you cannot see the repository information as you would see it
+  on the GitHub web page, you can only view it on Visual Studio, however there is a button on GitHub Desktop
+  that takes you to the website to view the repository as a web page. The GitHub Desktop seems to only be used
+  to push and fetch the data to and from Visual Studio and GitHub repositories which is fine with me.
 
   This is my first time using GitHub and found it challenging to get it to work in harmony with Visual Studio.
   I tried watching many YouTube videos to set up GitHub but this did not work either. I asked the lecturer for
