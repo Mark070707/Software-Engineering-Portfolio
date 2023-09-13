@@ -1,8 +1,6 @@
 ﻿# Software Engineering Week2 submission
 
 
-
-
 ## The Task
   Creating a shared GitHub repository for the team.
   Setting up a project in GitHub with an integrated task board.
@@ -10,24 +8,18 @@
   Cloning the shared repository.
 
 
-
-
 ## Environment configuration
 
   I have set up my development envirnment successfully. Visual Studio is now connected to GitHub Grean Team and cloned personal
   repositories. Screen shot Evidence of the installed Visual Studio showing the cloned week2 portfolio instructions
-  information taken from my own GitHub repository is avalable here-
-  [numbered captions](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Visual%20Studio%20screenshot.png)
+  information taken from my own GitHub repository is avalable here- [Visual Studio evidence](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Visual%20Studio%20screenshot.png)
 
   I have downloaded GitHub Desktop to my Macbook and connected it to the Green Teams repository and my own
   repository named "Software-Engineering-Portfolio" on Visual Studio, screenshot evidence of GitHub working
-  with my repositoeies can be seen here-
-  Use [numbered captions](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20screenshot.pn)
+  with my repositoeies can be seen here- [GitHub evidence](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20screenshot.pn)
 
 * Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
   as labels for images. Also, use the caption numbers to refer to images in your text.
-
-
 
 
 ## Reflection
