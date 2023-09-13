@@ -54,5 +54,17 @@ appropriately.
 * Give a blow-by-blow account of everything you did. Instead, you should highlight 
   the important points.
 
-  I have set up my development envirnment corectly. Screen shot Evidence of Visual Studio code up and running
-  is avalable here
+  I have set up my development envirnment successfully. Visual Studio is now connected to GitHub repositories.
+  Screen shot Evidence of the installed Visual Studio showing the week2 portfolio instructions data taken
+  from my own GitHub repository is avalable here-
+
+  I have downloaded GitHub Desktop to my Macbook and connected it to the Green Teams repository and my own
+  repository named "Software-Engineering-Portfolio" on Visual Studio, screenshot
+  evidence of GitHub working with my repositoeies can be seen here-
+
+  I understand that there is different configeration setups available, one of them being using git version control
+  directly from the terminal, or using Visual studio to connect to GitHub website reposotories. I have chosen to
+  download Github Desktop to my MacBook and update the repositories via markdown language on Visual Studio.
+
+  This is my first time using GitHub and found it challenging to get it to work in harmony with Visual
+  Studio. I watched many YouTube videos to help my understanding of what GitHub is used for.
