@@ -2,10 +2,10 @@
 
 
 ## The Task
-  Creating a shared GitHub repository for the team.
-  Setting up a project in GitHub with an integrated task board.
-  Configuring a personal copy of Visual Studio appropriately.
-  Cloning the shared repository.
+* Creating a shared GitHub repository for the team.
+* Setting up a project in GitHub with an integrated task board.
+* Configuring a personal copy of Visual Studio appropriately.
+* Cloning the shared repository.
 
 
 ## Environment configuration
