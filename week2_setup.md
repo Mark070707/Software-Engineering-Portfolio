@@ -16,7 +16,7 @@
 
   I have downloaded GitHub Desktop to my Macbook and connected it to the Green Teams repository and my own
   repository named "Software-Engineering-Portfolio" on Visual Studio, screenshot evidence of GitHub working
-  with my repositoeies can be seen here- [GitHub evidence](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20screenshot.pn)
+  with my repositoeies can be seen here- [GitHub evidence](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20screenshot.png)
 
 * Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
   as labels for images. Also, use the caption numbers to refer to images in your text.
