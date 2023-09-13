@@ -18,28 +18,24 @@
   repository named "Software-Engineering-Portfolio" on Visual Studio, screenshot evidence of GitHub working
   with my repositoeies can be seen here- [GitHub evidence](https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20screenshot.png)
 
-* Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
-  as labels for images. Also, use the caption numbers to refer to images in your text.
-
 
 ## Reflection
 
-  I understand that there is different configeration setups available, one of them being using git version control
-  directly from the terminal on my MacBook, or using Visual studio to connect to GitHub website reposotories.
-  I have chosen to download Github Desktop to my MacBook and update the repositories via markdown language on
-  Visual Studio. The reason for my setup choice was that it was the only configeration that actually worked with my
-  MacBook.
+  I understand that there are different configuration setups available. One of them involves using Git version control
+  directly from the terminal on my MacBook, while another option is using Visual Studio to connect to GitHub repositories
+  on the website. I have chosen to download GitHub Desktop to my MacBook and update the repositories via markdown language
+  on Visual Studio. The reason for my choice of setup was that it was the only configuration that actually worked with
+  my MacBook.
 
-  The limitations of using Desktop GitHub is that you cannot see the repository information as you would see it
-  on the GitHub web page(preview mode), you can only view it on Visual Studio(code mode), however there is a button on GitHub Desktop
-  that takes you to the website to view the repository as a web page. The GitHub Desktop seems to only be used
-  to push and fetch the data to and from Visual Studio and GitHub repositories which is fine with me.
+  One limitation of using GitHub Desktop is that you cannot see the repository information as you would on the GitHub
+  website (in preview mode). You can only view it in Visual Studio (in code mode). However, there is a button on GitHub
+  Desktop that takes you to the website to view the repository as a web page. GitHub Desktop appears to be primarily used
+  for pushing and fetching data to and from Visual Studio and GitHub repositories, which is fine with me.
 
-  This is my first time using GitHub and found it challenging to get it to work in harmony with Visual Studio.
-  I tried watching many YouTube videos to set up GitHub but this did not work either. I asked my lecturer for
-  assistance but was reminded that the whole point of this exercise is to utilise your team and internet resources
-  to resolve my problems. At first i found a bit lost, however after following my lecurures advice by comunicating
-  with my peers, i found the answers i was looking for and more. I was not only able to find out that Mac operating
-  system work best when using the desktop version of GitHub, i was also able to build rapport with my team. I can now
-  see the benifit building relationships with in a team enviroment and i am very happy with my progress so far.
-  
+  This is my first time using GitHub, and I found it challenging to make it work seamlessly with Visual Studio. I tried
+  watching many YouTube videos to set up GitHub, but this did not work either. I asked my lecturer for assistance but was
+  reminded that the whole point of this exercise is to utilize my team and internet resources to resolve my problems. At
+  first, I felt a bit lost. However, after following my lecturer's advice by communicating with my peers, I found the
+  answers I was looking for and more. I not only discovered that the Mac operating system works best when using the
+  desktop version of GitHub, but I also built rapport with my team. I can now see the benefits of building relationships
+  within a team environment, and I am very happy with my progress so far.
