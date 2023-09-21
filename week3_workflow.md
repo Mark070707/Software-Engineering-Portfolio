@@ -1,11 +1,9 @@
-# Workflow
+# Software Engineering Week3 submission
 
-This section documents your practical work in week 3.
 
-The main requirements are to show that:
-
-1. You know how to use the workflow tools in GitHub
-2. You have successfully carried out the required operations which are:
+## The Task
+1. Know how to use the workflow tools in GitHub
+2. Successfully complete required operations which are:
    * Accept a task from the project backlog
    * Update the task information appropriately
    * Update the task board appropriately
