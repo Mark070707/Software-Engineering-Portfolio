@@ -38,9 +38,10 @@ have been completed successfully.
   the form of grammatically correct sentences.
 
   <figure>
-<img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png">
-<figcaption align = "center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
+<img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
+<figcaption align="center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
+
 
 
 
