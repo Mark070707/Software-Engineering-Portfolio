@@ -2,6 +2,7 @@
 
 
 ## The Task
+
 1. Know how to use the workflow tools in GitHub
 2. Successfully complete required operations which are:
    * Accept a task from the project backlog
@@ -12,41 +13,36 @@
    * Check your work against the Definition of Done (DoD)
    * Make a pull request
 
-## Task workflow
 
-Here, you should use screenshots and descriptive commentary to show that the required
-have been completed successfully.
+## workflow
 
-**DO**
-
-* Consider the layout of your content from the point of view of the reader. Many raw
-  screenshots will take up a lot of space. It may be better to adopt a different strategy
-  such as
-  * Using thumbnails with links to full-size images
-  * Combining two or more screenshots into a single image 
-  * Using partial screenshots to highlight only the important information
-  * etc.
-* Provide links to the actual objects (e.g. task, pull request, etc.) in the team project
-  in GitHub
-* Read through your work to make sure that the information comes across clearly
-
-**DON'T**
-
-* Use humour or informal language
-* Waste space with trivial or self-evident commentary
-* Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
-  the form of grammatically correct sentences.
-
-  <figure>
-<img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
-<figcaption align="center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
+Below in figure 1 is a screenshot of my workflow issue that has been successfully added.
+To see a larger pictiure simply click on the image and it will take to to the images folder
+where the larger original image is stored.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
 
+ The next screenshot in figure 2 is showing that the issue has been taken out of the queue of tasks
+ to be worked on and now in the process section where work is being carried out.
+ <figure>
+  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20In%20Process%20Screenshot.png" width="50%" height="50%">
+  <figcaption align="center"><b>Fig.2 - GitHub Issue Process Screenshot</b></figcaption>
+ </figure>
 
+ Figure 3 shows when a issue has been completed it will be moved in to the done sections of the workflow.
+ <figure>
+  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Done%20Screenshot.png" width="50%" height="50%">
+  <figcaption align="center"><b>Fig.3 - GitHub Issue Done Screenshot</b></figcaption>
+ </figure>
 
-
-
-
+ Figure 4 shows the issues details and instructions on how to complete the issue. From here we can also make changes,
+ change the status, upload files and add comments for other team members to be kept up to date with progress that is being made.
+ <figure>
+  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Details%20Screenshot.png" width="50%" height="50%">
+  <figcaption align="center"><b>Fig.4 - GitHub Issue Details Screenshot</b></figcaption>
+ </figure>
 
 ## Reflection
 
