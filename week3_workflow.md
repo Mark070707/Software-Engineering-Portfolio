@@ -46,14 +46,6 @@ where the larger original image is stored.
 
 ## Reflection
 
-Here, you should highlight any difficulties that you faced in completing the task, and
-how you resolved them.
-
-You should also briefly discuss the current process and how it could be refined or
-improved in future iterations. For example, is the DoD adequate or too onerous? Is the
-current procedure for updating the task appropriate? Is the task board configured to
-work in an intuitive way?
-
 My first dificulty was comunication with my team. The comunication problem was first
 highlighted to me when i was in class trying to understand this weeks task. i have realised
 that because of the large size of the team and that not everyone sits together, there seems to be
@@ -78,7 +70,7 @@ I messaged everyone on our discord Green Team group chat to comunicate my concer
 that they did not know how to complete the issue. Instead i focussed my attention on navagating the workflow dashbard.
 
 I like the task board, the simple look and feel that it provides. Its easy to read and understand with the
-different colours to seperate the sections. It is also cusomisable if you wanted to show a tasks importance or prioraty.
+different colours to seperate the sections. It is also customisable if you wanted to show a tasks importance or prioraty.
 It seems easy to use and upload work that has been commited.
 
 
