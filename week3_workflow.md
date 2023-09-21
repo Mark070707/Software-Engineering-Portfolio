@@ -37,7 +37,10 @@ have been completed successfully.
 * Abbreviate your commentary using (e.g. by using bullet points). Your text should be in
   the form of grammatically correct sentences.
 
-
+  <figure>
+<img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png">
+<figcaption align = "center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
+</figure>
 
 
 
@@ -54,23 +57,32 @@ improved in future iterations. For example, is the DoD adequate or too onerous? 
 current procedure for updating the task appropriate? Is the task board configured to
 work in an intuitive way?
 
-My main two dificulties were comunication with my team and my lack of knowlwdge and
-understanding of how complete the database task. The comunication problem was first
+My first dificulty was comunication with my team. The comunication problem was first
 highlighted to me when i was in class trying to understand this weeks task. i have realised
-this because of the large size of the team and that not everyone sits together, there seems to be
+that because of the large size of the team and that not everyone sits together, there seems to be
 smaller sub teams forming and having there own discussions and understandings of the
 required tasks. To combat this issue i went round the differnet clusters of sub groups
 to converse with them. I found out that some people recived an email from the lecturer
 that explains the issues are now available on GitHub to copy and paste over to our work
-flow and start working on them, and some people did not revieve such an email. I have to
-admit that i did not know how to complete the database workflow issue task. To combat these
-problems i have messaged everyone on our discord Green Team group chat to comunicate our
-ideas and concerns as a team. From now on i will gather the whole Green Team during the
-practical class to have an in person meeting everyweek so we are all on the same page.
+flow and start working on them, and some people did not revieve such an email.
+From now on i will gather the whole Green Team during the practical class to have an
+in person meeting everyweek so we are all on the same page.
+
+The second dificulty was i could not add or edit the team workflow. There has been no issues added
+to it so i could not start the task. I messaged everyone on our discord Green Team group chat to comunicate
+my concerns and was told someone will get round to it when they have time. I have limited time to complete
+my course work due to family commitments and work schedules so i could not wait. Instaed i made my own workflow
+dashboard and added an issue myself so i can take screenshots and still demonstaight my understanging of the tools
+in GitHub. Going forward i will speak to the Green team and see if there is anyway that i can be added as an
+administrator to be adble to add and edit the issues.
+
+The third problem was my lack of knowlwdge and understanding of how complete the database workflow issue task.
+I messaged everyone on our discord Green Team group chat to comunicate my concerns but was met with a simalar respone
+that they did not know how to complete the issue. Instead i focussed my attention on navagating the workflow dashbard.
 
 I like the task board, the simple look and feel that it provides. Its easy to read and understand with the
 different colours to seperate the sections. It is also cusomisable if you wanted to show a tasks importance or prioraty.
-I would change one thing, to have administative access to amend or add to the task board as i see fit.
-at the moment i do not have any control and look to change this.
+It seems easy to use and upload work that has been commited.
+
 
 
