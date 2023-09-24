@@ -55,7 +55,7 @@ Then i have made a branch called "branch-of-MarkAbram-branch" that is a branch o
 i could demonstrate merging a pull request into a branch without affecting the main branch.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Merge%20complete.png" width="50%" height="50%">
- <figcaption align="center"><b>Fig.6 - GitHub Issue Added Screenshot</b></figcaption>
+ <figcaption align="center"><b>Fig.6     - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
 
 ## Reflection
@@ -71,16 +71,16 @@ Team during practical classes to hold in-person meetings every week to ensure we
 
 The second challenge I encountered was my inability to add or edit the team workflow. Since no issues had
 been added to it, I couldn't begin the task. I reached out to everyone in our Discord Green Team group chat
-to communicate my concerns and was informed that someone would attend to it when they had time. However,
-due to my limited availability caused by family commitments and work schedules, I couldn't afford to wait.
-Instead, I created my own workflow dashboard and added an issue myself so I could take screenshots and
-demonstrate my understanding of GitHub tools. Going forward, I will discuss with the Green Team to explore
-the possibility of being added as an administrator to have the capability to add and edit issues.
+to communicate my concerns and was informed that someone would attend to it when they had time.This still has
+not been fixed and my task is still sitting in the "in progress" section when it should be in the done section.
+Going forward, I will discuss with the Green Team to explore the possibility of being added as an administrator to have the
+capability to add and edit issues.
 
 The third problem I faced was my lack of knowledge and understanding of how to complete the database workflow issue task.
 I communicated my concerns to everyone in our Discord Green Team group chat but received a similar response
-indicating that they were unsure how to complete the issue. As a result, I focused my attention on navigating
-the workflow dashboard.
+indicating that they were unsure how to complete the issue. I also reached out to other students in different
+teams who all had a completelty understanding of what the actual goal fo the task was and how to use GitHub.
+As a result, I focused my attention on navigating the workflow dashboard rather then the code.
 
 I appreciate the task board for its simplicity, making it easy to use and understand. The different colors used
 to separate sections and the option for customization to indicate task importance or priority are particularly
