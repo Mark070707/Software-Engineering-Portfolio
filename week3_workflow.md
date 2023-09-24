@@ -26,7 +26,7 @@ where the larger original image is stored.
 
 Below in figure 2 is a screenshot of the dashboard with the task #15 assigned to me.
 <figure>
- <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/my%20issue%20%2315%20shown%20on%20the%20project%20board.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.2 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
 
