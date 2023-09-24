@@ -23,33 +23,38 @@ where the larger original image is stored.
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Assigning%20an%20issue%20to%20myself.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 Below in figure 2 is a screenshot of the dashboard with the task #15 assigned to me.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/my%20issue%20%2315%20shown%20on%20the%20project%20board.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.2 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 The next screenshot in figure 3 is showing that the issue has been taken out of the queue of tasks
 to be worked on and now in the process section where work is being carried out.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Issue%20in%20progress.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.3 - GitHub Issue Process Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 Figure 4 shows the issues details and instructions on how to complete the issue. From here we can also make changes,
 change the status, upload files and add comments for other team members to be kept up to date with progress that is being made.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Details%20Screenshot.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.4 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 Figure 5 shows a branch has been made and a pull request has been done.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Merge%20pull%20request%20to%20the%20branch.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.5 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 Figure 6 shows a screenshot of my 2 branches. I made 1 branch called "MarkAbram-branch" that is a branch of the "main" branch.
 Then i have made a branch called "branch-of-MarkAbram-branch" that is a branch of "MarkAbram-branch". The reason for this was so
 i could demonstrate merging a pull request into a branch without affecting the main branch.
@@ -57,7 +62,8 @@ i could demonstrate merging a pull request into a branch without affecting the m
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Merge%20complete.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.6     - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
-
+<br>
+<br>
 ## Reflection
 
 My first difficulty was communication with my team. The communication problem became evident to me during
