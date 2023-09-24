@@ -16,34 +16,47 @@
 
 ## workflow
 
-Below in figure 1 is a screenshot of my workflow issue that has been successfully added.
+I have accepted a task from the team project dashboard and assigned it to myself shown in figure 1.
 To see a larger pictiure simply click on the image and it will take to to the images folder
 where the larger original image is stored.
 <figure>
- <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Assigning%20an%20issue%20to%20myself.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.1 - GitHub Issue Added Screenshot</b></figcaption>
 </figure>
 
- The next screenshot in figure 2 is showing that the issue has been taken out of the queue of tasks
- to be worked on and now in the process section where work is being carried out.
- <figure>
-  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20In%20Process%20Screenshot.png" width="50%" height="50%">
-  <figcaption align="center"><b>Fig.2 - GitHub Issue Process Screenshot</b></figcaption>
- </figure>
+Below in figure 2 is a screenshot of the dashboard with the task #15 assigned to me.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Added%20ScreenShot.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.2 - GitHub Issue Added Screenshot</b></figcaption>
+</figure>
 
- Figure 3 shows when a issue has been completed it will be moved in to the done sections of the workflow.
- <figure>
-  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Done%20Screenshot.png" width="50%" height="50%">
-  <figcaption align="center"><b>Fig.3 - GitHub Issue Done Screenshot</b></figcaption>
- </figure>
+The next screenshot in figure 3 is showing that the issue has been taken out of the queue of tasks
+to be worked on and now in the process section where work is being carried out.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Issue%20in%20progress.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.3 - GitHub Issue Process Screenshot</b></figcaption>
+</figure>
 
- Figure 4 shows the issues details and instructions on how to complete the issue. From here we can also make changes,
- change the status, upload files and add comments for other team members to be kept up to date with progress that is being made.
- <figure>
-  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Details%20Screenshot.png" width="50%" height="50%">
-  <figcaption align="center"><b>Fig.4 - GitHub Issue Details Screenshot</b></figcaption>
- </figure>
+Figure 4 shows the issues details and instructions on how to complete the issue. From here we can also make changes,
+change the status, upload files and add comments for other team members to be kept up to date with progress that is being made.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/GitHub%20Issue%20Details%20Screenshot.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.4 - GitHub Issue Added Screenshot</b></figcaption>
+</figure>
 
+Figure 5 shows a branch has been made and a pull request has been done.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Merge%20pull%20request%20to%20the%20branch.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.5 - GitHub Issue Added Screenshot</b></figcaption>
+</figure>
+
+Figure 6 shows a screenshot of my 2 branches. I made 1 branch called "MarkAbram-branch" that is a branch of the "main" branch.
+Then i have made a branch called "branch-of-MarkAbram-branch" that is a branch of "MarkAbram-branch". The reason for this was so
+i could demonstrate merging a pull request into a branch without affecting the main branch.
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Merge%20complete.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.6 - GitHub Issue Added Screenshot</b></figcaption>
+</figure>
 
 ## Reflection
 
