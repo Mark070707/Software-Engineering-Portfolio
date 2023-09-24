@@ -64,6 +64,8 @@ i could demonstrate merging a pull request into a branch without affecting the m
 </figure>
 <br>
 <br>
+
+
 ## Reflection
 
 My first difficulty was communication with my team. The communication problem became evident to me during
