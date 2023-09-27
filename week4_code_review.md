@@ -13,6 +13,7 @@
 
 Code Duplication: Hashing the password with a salt is duplicated in both the Register and
 Login methods. This can lead to maintenance issues if changes are needed in the hashing process.
+Below is the old code.
 
 ```
 public void Register(string username, string password){ 
@@ -31,6 +32,11 @@ public bool Login(string username, string password){
   return false; 
 }
 ```
+
+The code duplication has now been eliminated by calling the HashPassword method in both the Register
+and Login methods.This improved code follows best practices for security and code organization,
+making it a easier to maintain. This code is below.
+
 ```
 public void Register(string username, string password)
 {
@@ -53,7 +59,3 @@ private string HashPasswordWithSalt(string password, string salt)
     return HashPassword(password + salt);
 }
 ```
-
-The code duplication has been eliminated by calling the HashPassword method in both the Register
-and Login methods.This improved code follows best practices for security and code organization,
-making it a easier to maintain.
