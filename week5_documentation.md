@@ -38,7 +38,7 @@ Instead, use functions, classes, or modules to encapsulate and reuse code.
 Write tests before you write the actual code. This practice ensures that your code functions correct and helps
 catch issues when you make changes later on.
 
-### My Code
+## My Code
 ```
 public void Register(string username, string password)
 {
@@ -66,26 +66,26 @@ private string HashPasswordWithSalt(string password, string salt)
 
 ## Implimenting The Rule
 
-## Meaningful Names
+### Meaningful Names
 I've used clear and descriptive method and variable names like Register, Login, HashPasswordWithSalt,
 and hashedPassword. This helps me understand my code better.
 
-## Keep Functions and Methods Small
+### Keep Functions and Methods Small
 Both Register and Login methods are short and focused on their respective tasks, making them easy to understand and maintain.
 
-## Single Responsibility Principle (SRP)
+### Single Responsibility Principle (SRP)
 Each of my Register and Login methods follows the SRP. They have specific responsibilities - one for user registration and
 the other for user login.
 
-## Don't Repeat Yourself (DRY)
+### Don't Repeat Yourself (DRY)
 I've encapsulated the password hashing logic in the HashPasswordWithSalt method to avoid duplicating the code.
 This promotes code reuse.
 
-## Comments Shouldn't Lie
+### Comments Shouldn't Lie
 While I haven't included comments in my code, I believe my method and variable names are descriptive enough to
 convey their purpose. However, I'll consider adding comments for more complex parts of the code or to explain any
 non-obvious decisions.
 
-## Test-Driven Development (TDD)
+### Test-Driven Development (TDD)
 My code doesn't include explicit tests, but I can test each method separately to ensure they work as intended.
 I'll consider adding tests to follow the Test-Driven Development approach, which helps ensure code correctness.
