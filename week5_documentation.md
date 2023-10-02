@@ -1,29 +1,44 @@
 # Documentation
 
-## Meaningful Names
+## The Task
+
+First, choose six rules of clean code and explain them. For each one,
+
+* Summarise the rule in your own words.
+* Provide an example from the code that you wrote in week 2 and then refined in week 4.
+* Explain how your code implements the rule. 
+
+Second, copy the doxygen comments from your code into your portfolio and provide some 
+descriptive commentary on their purpose and structure. Use screenshots showing the HTML 
+content that is generated from your code to illustrate your explanation.
+
+Finally, highlight three examples from your code where you have eliminated the need
+for comments by adhering to the principles of clean code.
+
+### Meaningful Names
 When you create variables, functions, classes, or modules, give them names that clearly explain their purpose.
 Descriptive names make code easy to understand.
 
-## Keep Functions and Methods Small
+### Keep Functions and Methods Small
 Make sure that functions and methods have a single task.
 They should do one thing which simplifies testing, and upkeep of the code.
 
-## Comments Shouldn't Lie
+### Comments Shouldn't Lie
 If you use comments in your code, make sure they reflect what the code does.
 Outdated or misleading comments can lead to confusion and errors.
 
-## Single Responsibility Principle (SRP):
+### Single Responsibility Principle (SRP):
 Each class or module should serve a single purpose, which enhances maintainability.
 
-## Don't Repeat Yourself (DRY)
+### Don't Repeat Yourself (DRY)
 Duplication code in multiple places can make maintenance difficult and introduce the risk of errors.
 Instead, use functions, classes, or modules to encapsulate and reuse code.
 
-## Test-Driven Development (TDD)
+### Test-Driven Development (TDD)
 Write tests before you write the actual code. This practice ensures that your code functions correct and helps
 catch issues when you make changes later on.
 
-## My Code
+### My Code
 ```
 public void Register(string username, string password)
 {
