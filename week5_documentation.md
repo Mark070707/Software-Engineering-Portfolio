@@ -18,83 +18,45 @@ for comments by adhering to the principles of clean code.
 
 ## Six Rules
 
-### Meaningful Names
-When you create variables, functions, classes, or modules, give them names that clearly explain their purpose.
-Descriptive names make code easy to understand.
-
-
-### Keep Functions and Methods Small
-Make sure that functions and methods have a single task.
-They should do one thing which simplifies testing, and upkeep of the code.
-
-
-### Comments Shouldn't Lie
-If you use comments in your code, make sure they reflect what the code does.
-Outdated or misleading comments can lead to confusion and errors.
-
-
-### Single Responsibility Principle (SRP):
-Each class or module should serve a single purpose, which enhances maintainability.
-
-
-### Don't Repeat Yourself (DRY)
-Duplication code in multiple places can make maintenance difficult and introduce the risk of errors.
-Instead, use functions, classes, or modules to encapsulate and reuse code.
-
-
-### Test-Driven Development (TDD)
-Write tests before you write the actual code. This practice ensures that your code functions correct and helps
-catch issues when you make changes later on.
-
-
-## My Code
-```
-public void Register(string username, string password)
-{
-    var salt = CreateSalt();
-    var hashedPassword = HashPasswordWithSalt(password, salt);
-    SaveToDatabase(username, hashedPassword, salt);
-}
-
-public bool Login(string username, string password)
-{
-    var user = GetUserFromDatabase(username);
-    var hashedPassword = HashPasswordWithSalt(password, user.Salt);
-
-    return user.HashedPassword == hashedPassword;
-}
-
-private string HashPasswordWithSalt(string password, string salt)
-{
-    // Combine the password and salt and then hash them
-    return HashPassword(password + salt);
-}
-
-```
-
-
-## Implimenting The Rule
 
 ### Meaningful Names
-I've used clear and descriptive method and variable names like Register, Login, HashPasswordWithSalt,
-and hashedPassword. This helps me understand my code better.
+Descriptive names for variables, functions and classes to make the code more self explanatory.
+In my code, the class "AllNotesPage" and method names like "Add_Clicked" and "notesCollection_SelectionChanged" are descriptive and meaningful.
 
-### Keep Functions and Methods Small
-Both Register and Login methods are short and focused on their respective tasks, making them easy to understand and maintain.
+
+### DRY (Don't Repeat Yourself)
+Avoid duplicating code by extracting common functionality into reusable methods or classes.
+In my code, i have implemented DRY by centralizing the navigation logic to "NotePage" in both the "Add_Clicked" and "notesCollection_SelectionChanged" methods.
+This avoided code duplication by using the same navigation code in multiple places.
+
 
 ### Single Responsibility Principle (SRP)
-Each of my Register and Login methods follows the SRP. They have specific responsibilities - one for user registration and
-the other for user login.
+Each class and method should have a single task, well-defined single responsibility.
+The class constructor "AllNotesPage" is focused on initializing the page, It is not handling multiple tasks.
 
-### Don't Repeat Yourself (DRY)
-I've encapsulated the password hashing logic in the HashPasswordWithSalt method to avoid duplicating the code.
-This promotes code reuse.
 
-### Comments Shouldn't Lie
-While I haven't included comments in my code, I believe my method and variable names are descriptive enough to
-convey their purpose. However, I'll consider adding comments for more complex parts of the code or to explain any
-non-obvious decisions.
+### Comments and Documentation
+Comments and documentation is to explain the purpose and usage of code when it's not immediately obvious.
+My code lacks comments due to the meaningful names i have created. The comments that i did provide 
+make it easier for someone reading the code to understand its intent and functionality.
 
-### Test-Driven Development (TDD)
-My code doesn't include explicit tests, but I can test each method separately to ensure they work as intended.
-I'll consider adding tests to follow the Test-Driven Development approach, which helps ensure code correctness.
+// Get the note model: This comment explains that the code is obtaining a note model from the current selection,
+clarifying the purpose of the code.
+
+// Should navigate to "NotePage?ItemId=path\on\device\XYZ.notes.txt": This comment describes the expected outcome of the navigation code,
+specifying the format of the URL that the navigation should produce.
+
+// Unselect the UI: This comment indicates that the code is deselecting an item in the UI,
+which is helpful for understanding the code's behavior.
+
+
+### Consistent Formatting
+Maintaining a consistent and readable code style throughout the project with spacing.
+My code follows a consistent formatting style, which is good for readability. I have seperated the functions with
+spaces to make it more readable.
+
+
+### Keep Functions/Methods Small
+Splitting up large complex functions or methods into smaller, more manageable ones to improve readability and maintainability.
+Add_Clicked Method method handles the "Add" button click event and navigates to the NotePage. It's a concise method with a clear purpose.
+The method is focused and do not contain an excessive amount of code, which promotes readability and maintainability.
