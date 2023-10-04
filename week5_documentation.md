@@ -64,7 +64,8 @@ The method is focused and do not contain an excessive amount of code, which prom
 
 
 ## Doxygen Report
-Figure 1 is a screenshot of my Doxygen report showing that basic hierarchy
+Figure 1 is a screenshot of my Doxygen report showing that basic hierarchy. The task was to use Doxygen comments, but i did not fully
+understand how to access the comments in Doxygen, instead i have shown a screenshot of a working Doxygen report.
 <figure>
  <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Doxygen%20report.png" width="50%" height="50%">
  <figcaption align="center"><b>Fig.1 - Doxygen Report</b></figcaption>
