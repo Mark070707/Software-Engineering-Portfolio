@@ -60,3 +60,45 @@ spaces to make it more readable.
 Splitting up large complex functions or methods into smaller, more manageable ones to improve readability and maintainability.
 Add_Clicked Method method handles the "Add" button click event and navigates to the NotePage. It's a concise method with a clear purpose.
 The method is focused and do not contain an excessive amount of code, which promotes readability and maintainability.
+
+
+
+## Doxygen Report
+Figure 1 is a screenshot of my Doxygen report showing that basic hierarchy
+<figure>
+ <img src="https://github.com/Mark070707/Software-Engineering-Portfolio/blob/main/images/Doxygen%20report.png" width="50%" height="50%">
+ <figcaption align="center"><b>Fig.1 - Doxygen Report</b></figcaption>
+</figure>
+<br>
+<br>
+
+
+
+## Eliminating Comments
+
+I have eliminated the need for comments by using simple and well explained names.
+```
+public AllNotesPage()
+{
+    InitializeComponent();
+    BindingContext = new Models.AllNotes();
+}
+```
+```
+private async void Add_Clicked(object sender, EventArgs e)
+{
+    await Shell.Current.GoToAsync(nameof(NotePage));
+}
+```
+```
+private async void notesCollection_SelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+    if (e.CurrentSelection.Count != 0)
+    {
+        var note = (Models.Note)e.CurrentSelection[0];
+        await Shell.Current.GoToAsync($"{nameof(NotePage)}?{nameof(NotePage.ItemId)}={note.Filename}");
+        notesCollection.SelectedItem = null;
+    }
+}
+
+```
