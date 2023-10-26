@@ -77,7 +77,7 @@ to code that is not self explanatory.A test was done on my code using xunit. The
 I have found that the more i use GitHub the more comfortable i am navagating the site. I understand the
 how important it is to use for a large company with many developers working as a team on the same project.
 
-I the large team of 16 members with no distinct manager dificult to comunicate with, there seems to be sub
+Having a large team of 16 members with no distinct manager is dificult to comunicate with, there seems to be sub
 teams splitting and working together. I feel smaller teams of perhaps 5 would work better in this enviroment.
 Due to the disconnect on comunication with all my team members, im not exactly sure who is in my team, i think
 5 people comunicate on the team discord who all work different schedules and all work at different paces.
