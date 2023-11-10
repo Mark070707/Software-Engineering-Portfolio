@@ -1,4 +1,4 @@
-# # Software Engineering Week9 submission Project work 2
+# Software Engineering Week9 submission Project work 2
 
 ## The Task
 In week 9, you are continuing with the team project. Your portfolio entry should 
