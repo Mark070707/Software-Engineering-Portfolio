@@ -149,8 +149,8 @@ are clear and concise, indicating good practice in organizing code for maintaina
 ## Testing
 Comprehensive tests were written to cover all functionalities introduced in this feature, including:
 
-Adding new sub-team statuses.
-Updating existing statuses.
+Adding new sub-team statuses.<br>
+Updating existing statuses.<br>
 Deleting statuses.
 
 ## Code Review
