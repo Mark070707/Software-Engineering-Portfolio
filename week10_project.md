@@ -116,8 +116,8 @@ public partial class SubTeamStatusView : ContentPage
 
 }
 ```
-Code Implementation
-Code Snippets and Design Practices
+
+## Code Snippets and Design Practices
 ObservableCollection Usage:
 
 ```
@@ -127,7 +127,7 @@ This shows adherence to good software design practices by using ObservableCollec
 It enables the UI to automatically update when items are added, changed, or removed,
 improving user experience and software responsiveness.
 
-Initialization in Constructor:
+## Initialization in Constructor:
 
 ```
 public SubTeamStatusView()
@@ -141,30 +141,34 @@ public SubTeamStatusView()
 Initializing the SubTeamStatusManager and SubTeamStatusList in the constructor ensures that
 the view is properly set up with the necessary data upon instantiation.
 
-CRUD Operations:
+## CRUD Operations:
 
 Addition, modification, and deletion methods (OnAddSubTeamStatusClicked, OnSubTeamUpdateClicked, OnSubTeamDeleteClicked)
 are clear and concise, indicating good practice in organizing code for maintainability and readability.
 
-Testing
-Test Code Summary
+## Testing
 Comprehensive tests were written to cover all functionalities introduced in this feature, including:
 
 Adding new sub-team statuses.
 Updating existing statuses.
 Deleting statuses.
 
-## Reflection
-Personal Practice Improvements
-Realized the importance of consistent naming conventions for better readability.
-Learned to write more efficient tests covering edge cases.
-Team Workflow and Procedure Improvements
-The team workflow has seen improvements, particularly in the code review process, with more active participation
-and constructive feedback.
+## Code Review
+I recieved positive feedback on my code review by following the basic principles and naming conventions. I also
+gave positive feedback to my team partner, however i did give some sugestion that it would be great to
+have a intro comments at the start of the code to explain what it does. I explained that the code it great
+and clear but it would prevent the a developer having to read all the code to understand what it does but
+having a quick explanation would save time.
 
-Suggestion for future improvement: Incorporating automated CI/CD pipelines for more efficient integration and deployment.
-Comparisons and Insights
-Compared to peers, my approach to error handling and testing has been more thorough.
+## Reflection
+Personal Improvements with code reviewing and navgation with GitHub have been great. I am starting to
+enjoy the use of gitHub. I have realized the importance of consistent naming conventions for better readability
+that reduces the need for comments. I have learned to write more efficient tests covering edge cases, however
+i have been trying mock testing unsuccessfully, I will spend more time researching this to get it up and
+running by the final report.Team Workflow and Procedure Improvements have been made by the team in the speed
+of which issues are being completed and reveied, particularly in the code review process, with more active participation
+and constructive feedback for most people.Compared to peers, my approach to error handling and testing has been lacking, i look to improve this overtime.
 Common problems in team situations often relate to miscommunication, which we've started
-to address by having more frequent updates by asking how everyone is getting on.
+to address by having more frequent updates by asking how everyone is getting on, this usually starts a
+converstaion by only some people, but this is an improvement.
 
