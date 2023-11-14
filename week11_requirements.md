@@ -26,8 +26,149 @@ has improved as before. It would also be good to reflect on any improvements tha
 been made to the agreed team workflow and related procedures. Are things working
 better than they were? What further improvements could be made in the future?
 
-## The Issue number
+## The Issue number 89
+As an UNDAC Deputy Team Leader I want to view overall status of operational sub-teams
+so that I can identify and resolve issues as they arise.
 
+## The code
+```csharp
+//This contains methods to handle user interactions on the View Security Alerts Page.
+
+
+using System.Collections.ObjectModel;
+using UNDAC_App.Classes;
+using UNDAC_App.Models;
+
+namespace UNDAC_App;
+
+public partial class ViewSecurityAlertsPage : ContentPage
+{
+    private ObservableCollection<SecurityAlert> securityAlerts; //! Collection of security alert objects
+    private readonly SecurityAlertDB securityAlertDB; //! Instance of the security alerts database table manager class
+    public ObservableCollection<SecurityAlert> SecurityAlerts { get => securityAlerts; set => securityAlerts = value; } //! Getter and setter for the collection of alerts
+
+    public ViewSecurityAlertsPage() //! Default constructor of the class
+	{
+		InitializeComponent();
+
+        securityAlertDB = new SecurityAlertDB(); //! Instantiate the security alert database table manager
+        SecurityAlerts = new ObservableCollection<SecurityAlert>(securityAlertDB.ReadSecurityAlerts()); //! Read all the security alerts from the database into a collection
+
+        SecurityAlertsListview.ItemsSource = SecurityAlerts; //! Set the listview item source to the observable collection
+    }
+
+    private void RefreshSecurityAlertsList() //! A method that will update the list of security alerts in the user interface.
+    {
+        SecurityAlerts.Clear(); //! Clear the collection of security alerts
+        foreach (SecurityAlert alert in securityAlertDB.ReadSecurityAlerts()) //! Iterate through all the stored security alerts
+        {
+            SecurityAlerts.Add(alert); //! Add the security alert to the collection
+        }
+    }
+
+
+
+    private async void CreateNewSecurityAlert(object sender, EventArgs e) //! A method that will create a new security alert.
+    {
+        SecurityAlert newAlert = new(); //! Create an empty alert
+        string newSecurityAlertTitle = await DisplayPromptAsync("Create Security Alert", "Enter the new Security Alert:"); //! Prompt the user for input
+
+        if (!string.IsNullOrWhiteSpace(newSecurityAlertTitle)) //! Validate the entry
+        {
+            newAlert.ChangeSecurityAlertName(newSecurityAlertTitle); //! Change the name of the alert
+            securityAlertDB.CreateSecurityAlert(newAlert); //! Create the alert in the database
+            RefreshSecurityAlertsList(); //! Refresh the UI
+        }
+    }
+
+    // Event handlers for editing a security alert
+
+    // When alert is tapped
+    private async void SelectSecurityAlert(object sender, ItemTappedEventArgs e) //! An event handler for when a security alert in the list is tapped.
+    {
+        if (e.Item is SecurityAlert alert) //! If the item that was tapped is a security alert
+        {
+            string updatedAlert = await DisplayPromptAsync("Edit Security Alert", "Edit the Security Alert:", initialValue: alert.AlertTitle); //! Prompt the user for input
+
+            if (!string.IsNullOrWhiteSpace(updatedAlert))
+            {
+                alert.ChangeSecurityAlertName(updatedAlert);    //! Change the title of the alert
+                securityAlertDB.EditSecurityAlert(alert);       //! Pass the editied alert to be u[pdated in the database table
+                RefreshSecurityAlertsList();                    //! Refresh the list of items in the user interface.
+            }
+        }
+    }
+
+    // Event handler when alert is edited
+    private async void EditSecurityAlert(object sender, EventArgs e) //! An event handler for when a security alert in the list is clicked.
+    {
+        Button button = sender as Button;
+
+        if (button?.CommandParameter is SecurityAlert selectedSecurityAlert) //! If the button clicked was a security alert
+        {
+            string securityAlertEdit = await DisplayPromptAsync("Edit Security Alert", "Edit the Security Alert:", initialValue: selectedSecurityAlert.AlertTitle); //! Prompt the user for input
+
+            if (!string.IsNullOrWhiteSpace(securityAlertEdit))
+            {
+                selectedSecurityAlert.ChangeSecurityAlertName(securityAlertEdit);   //! Change the title of the alert
+                securityAlertDB.EditSecurityAlert(selectedSecurityAlert);           //! Pass the editied alert to be u[pdated in the database table
+                RefreshSecurityAlertsList();                                        //! Refresh the list of items in the user interface.
+            }
+        }
+    }
+
+
+
+    // Event handler for deleting a security alert
+    private void DeleteSecurityAlert(object sender, EventArgs e) //! A method to delete the selected security alert.
+    {
+        Button button = sender as Button;
+
+        if (button?.CommandParameter is SecurityAlert selectedSecurityAlert) //! If the button clicked is a security alert
+        {
+            securityAlertDB.DeleteSecurityAlert(selectedSecurityAlert.Id);  //! Delete the alert in the database that has this ID
+            SecurityAlerts.Remove(selectedSecurityAlert);                   //! Remove the selected alert from the list
+            RefreshSecurityAlertsList();                                    //! Refresh the list display.
+        }
+
+
+    }
+}
+```
+
+## Testing
+In the provided code, several methods have been tested in xunit to ensure their functionality.
+Here's a breakdown of the methods that was tested.
+
+Constructor (ViewSecurityAlertsPage()):
+Tested that the SecurityAlerts collection is initialized.
+Tested that the SecurityAlertDB instance is created.
+Tested that the initial state of SecurityAlertsListview.ItemsSource is set correctly.
+
+RefreshSecurityAlertsList() Method:
+Tested that the method clears the SecurityAlerts collection.
+Tested that it correctly adds new SecurityAlert objects to the collection.
+Tested that it correctly reflects changes from the database.
+
+CreateNewSecurityAlert(object sender, EventArgs e) Method:
+Tested that a new SecurityAlert is created when the user provides valid input.
+Tested that the method handles empty or null input appropriately.
+Tested that the UI is correctly refreshed after creating a new alert.
+
+SelectSecurityAlert(object sender, ItemTappedEventArgs e) Method:
+Tested that the method correctly handles tapping on a SecurityAlert item.
+Tested that the UI is updated after editing a selected alert.
+Tested that the method handles null or invalid input.
+
+EditSecurityAlert(object sender, EventArgs e) Method:
+Tested that the method correctly handles editing a SecurityAlert item.
+Tested that the UI is updated after editing an alert.
+Tested that the method handles null or invalid input.
+
+DeleteSecurityAlert(object sender, EventArgs e) Method:
+Tested that the method correctly handles deleting a SecurityAlert item.
+Tested that the UI is updated after deleting an alert.
+Tested that the method handles null or invalid input.
 
 
 ## Reflection

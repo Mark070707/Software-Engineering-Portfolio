@@ -27,9 +27,7 @@ been made to the agreed team workflow and related procedures. Are things working
 better than they were? What further improvements could be made in the future?
 
 ## The Issue number 51
-As an UNDAC Deputy Team Leader I want to view overall status of operational sub-teams
-so that I can identify and resolve issues as they arise.
-
+As an UNDAC Deputy Team Leader I want to view Security Alerts Page.
 
 ## The Code
 ```
@@ -129,7 +127,7 @@ improving user experience and software responsiveness.
 
 ## Initialization in Constructor:
 
-```
+```csharp
 public SubTeamStatusView()
 {
     InitializeComponent();
