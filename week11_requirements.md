@@ -181,7 +181,8 @@ explanations to help an other developer understand what is going on with ease.
 ## Reflection
 Over the past weeks, my journey in contributing to our team project on GitHub has been
 marked by notable progress in both personal and team aspects, this has been a slow
-learning curve to start with but feel it has been getting better.
+learning curve to start with but feel it has been getting better. I also learned from speaking to my peers that by
+inserting "csharp" at the start of my code snippet will add colour to my code in the repository.
 
 Personal Growth:
 In terms of code reviewing and GitHub navigation, I've experienced significant improvements.
