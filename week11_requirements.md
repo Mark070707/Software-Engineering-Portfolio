@@ -170,6 +170,13 @@ Tested that the method correctly handles deleting a SecurityAlert item.
 Tested that the UI is updated after deleting an alert.
 Tested that the method handles null or invalid input.
 
+## Code Review
+I did 2 code reviews this week which is 1 more than usual. I know im not perfect at revieing other
+peoples code yet but definatle improving. I did not see any code smells and only code good coding practices.
+
+My code was revied, my feedback was that there is too many unnessassary comments to explain my code.
+I dissagreed with the feedback, i felt that there just to much going on in the code and it needs short
+explanations to help an other developer understand what is going on with ease. 
 
 ## Reflection
 Over the past weeks, my journey in contributing to our team project on GitHub has been
@@ -199,8 +206,9 @@ and testing compared to my peers. This awareness serves as a catalyst for contin
 in these areas.
 
 In addressing common team challenges, we've initiated efforts to mitigate miscommunication.
-Regular updates, where everyone shares their progress and challenges, have become a valuable practice. Although participation in these conversations is not uniform, the mere initiation of such discussions signifies an improvement in team communication.
-As I reflect on these aspects of my journey, the commitment to continual learning and enhancement
-remains at the forefront. I look forward to further refining my skills and contributing meaningfully
-to our collaborative efforts.
+Regular updates, where everyone shares their progress and challenges, have become a valuable practice.
+Although participation in these conversations is not uniform, the mere initiation of such discussions
+signifies an improvement in team communication.As I reflect on these aspects of my journey, the commitment
+to continual learning and enhancement remains at the forefront. I look forward to further refining my
+skills and contributing meaningfully to our collaborative efforts.
 <br>
