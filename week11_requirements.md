@@ -143,11 +143,13 @@ Here's a breakdown of the methods that was tested.
 Constructor (ViewSecurityAlertsPage()):
 Tested that the SecurityAlerts collection is initialized.
 Tested that the SecurityAlertDB instance is created.
+Initial State of SecurityAlertsListview.ItemsSource:
 Tested that the initial state of SecurityAlertsListview.ItemsSource is set correctly.
 
 RefreshSecurityAlertsList() Method:
 Tested that the method clears the SecurityAlerts collection.
 Tested that it correctly adds new SecurityAlert objects to the collection.
+Reflecting Changes from the Database:
 Tested that it correctly reflects changes from the database.
 
 CreateNewSecurityAlert(object sender, EventArgs e) Method:
@@ -171,45 +173,39 @@ Tested that the UI is updated after deleting an alert.
 Tested that the method handles null or invalid input.
 
 ## Code Review
-I did 2 code reviews this week which is 1 more than usual. I know im not perfect at revieing other
-peoples code yet but definatle improving. I did not see any code smells and only code good coding practices.
+I did 1 code review this week which is 1 less than usuallast time as my p[eers were slow at submitting there work.
+I I did not see any code smells and only code good coding practices. I think everyone has taken on feedback from
+prevoius code reviews and put them into action and not repeating early mistakes.
 
-My code was revied, my feedback was that there is too many unnessassary comments to explain my code.
-I dissagreed with the feedback, i felt that there just to much going on in the code and it needs short
-explanations to help an other developer understand what is going on with ease. 
+My code was revied and they just said no problems found.
 
 ## Reflection
-Over the past weeks, my journey in contributing to our team project on GitHub has been
-marked by notable progress in both personal and team aspects, this has been a slow
-learning curve to start with but feel it has been getting better. I also learned from speaking to my peers that by
-inserting "csharp" at the start of my code snippet will add colour to my code in the repository.
+In recent weeks, my engagement with our team project on GitHub has seen substantial growth both on a personal
+level and within the team dynamics. While the initial learning curve was gradual, I've noticed significant progress.
+An interesting tip I gathered from my peers is that adding "csharp" at the beginning of code snippets enhances the
+code's appearance in the repository.
 
 Personal Growth:
-In terms of code reviewing and GitHub navigation, I've experienced significant improvements.
-The platform is becoming more enjoyable as I delve deeper into its functionalities.
-One key realization has been the importance of adhering to coding principles. If i look back at
-code i was producing before this modual it was very different, i have always felt i have had to
-explain my code, but now it is alot clearer and the need for comments has reduced.
-
-While I've become adept at crafting more efficient tests, the realm of mock testing has presented
-a challenge. Acknowledging this, I am committed to dedicating more time to research and implementation,
-aiming to have it seamlessly integrated into our project by the final report.
+In terms of code reviewing and navigating GitHub, I've made noteworthy strides. The GitHub platform has become more
+enjoyable as I explore its functionalities. One pivotal realization is the significance of adhering to coding principles.
+Looking back at my code before this module, I see a notable difference. I've always emphasized explaining my code,
+and now it's clearer, reducing the need for excessive comments. Testing has slightly improved at crafting efficient tests.
 
 Team Workflow and Procedure Enhancements:
-Collaboratively, our team has made commendable strides in the efficiency of issue resolution and code
-review processes. Notably, there has been an uptick in active participation, with constructive feedback
-becoming more commonplace. The team message comunication has ben more responsive in the spen of replys which
-is great for team repport. This collective effort has contributed to a quicker turnaround in completing
-tasks. I have found myself being able to complete more issues in and reviews in the same period of time.
+Collaboratively, our team has achieved commendable efficiency in issue resolution and code review processes.
+There's an increase in active participation, with constructive feedback becoming more commonp. The team's
+message communication has become more responsive, usually comunication has ben left till the last hours before
+submission nevertheless it has improved. This collective effort has led to a quicker
+turnaround in completing tasks, allowing me to handle more issues and reviews within the same timeframe.
 
-Recognizing the need for improvement, I've identified disparities in my approach to error handling
-and testing compared to my peers. This awareness serves as a catalyst for continuous improvement
-in these areas.
+Recognizing the need for improvement, the agile devepopement sprints has suited this project well, however i understand
+the need for teams roles such as project manager, superviser, tester and so on. This would help when decisions ned to
+be made from the collection of ideas that team members bring to the table. Perhaps the use of more planning software
+like Gant would helpl manage the time scales and milestone of this project and help us visulise our path. I think
+daily stand up meeting would enhance every area of the teams progress on the project with moral, errors and helping
+one another.
 
-In addressing common team challenges, we've initiated efforts to mitigate miscommunication.
-Regular updates, where everyone shares their progress and challenges, have become a valuable practice.
-Although participation in these conversations is not uniform, the mere initiation of such discussions
-signifies an improvement in team communication.As I reflect on these aspects of my journey, the commitment
-to continual learning and enhancement remains at the forefront. I look forward to further refining my
-skills and contributing meaningfully to our collaborative efforts.
-<br>
+As I reflect on these aspects of my journey, the commitment to continual learning and enhancement remains at the forefront.
+I look forward to further refining my skills and contributing meaningfully to our collaborative efforts. My biggest takeaway
+from this module is the module is the practice of good coding principles. I feel that it sould not matter who has
+written the code, if they follow the good coding principles it should be perfectly readable and maintainable.
