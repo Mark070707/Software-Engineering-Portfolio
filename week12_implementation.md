@@ -129,12 +129,6 @@ namespace UNDAC_App
                 disasterManagementNeedsList.Remove(selectedNeed);
             }
         }
-
-        // Event handler for handling tapped event for a disaster management need
-        private void OnDisasterManagementNeedsTapped(object sender, ItemTappedEventArgs e)
-        {
-            // Handle tapped event for a disaster management need
-        }
     }
 }
 ```
